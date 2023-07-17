@@ -1,0 +1,8 @@
+composer create-project laravel/laravel project_name
+php artisan list
+php artisan make:model name -m //Crea el modelo y la migracion
+php artisan migrate
+php artisan tinker //para verificar las relaciones
+$user = new User;   
+/Applications/XAMPP/xamppfiles/htdocs/blog/app/Models/Article.php
+use App\Models\Articles
